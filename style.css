@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ header{
+    width: 100;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)) , url(6.jpeg);
+    background-size: cover;
+    font-family: 'pappins' ,sans-serif;
+ }
+ nav{
+    width: 100%;
+    height: 100px;
+ 
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+ 
+ }
+ .logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+ }
+ .menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+ }
+ 
+ .menu a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+ 
+ }
+ .buynow a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+ 
+ }
+ .buynow a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+ }
+ .h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+ }
+ .h-text span{
+    letter-spacing: 5px;
+ 
+ }
+ .h-texth1{
+    font-size: 3.5em;
+ 
+ }
+ .h-text a{
+    text-decoration: none;
+    background: indianred;
+    padding: 10px 20px;
+    color: black;
+    letter-spacing: 5px;
+    transition: 0.4s;
+ 
+ 
+ }
+ .h-text a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+ }
+ 
+ 
+ 
+ 
